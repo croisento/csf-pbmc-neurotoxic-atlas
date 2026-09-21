@@ -1,0 +1,59 @@
+:root {
+  --ink: #22262a;
+  --muted: #687178;
+  --line: #dce1e4;
+  --panel: #ffffff;
+  --page: #f4f6f7;
+  --accent: #2f6b5f;
+  --accent-dark: #214e46;
+}
+
+html, body {
+  background: var(--page);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+.bslib-page-fill { gap: 0 !important; }
+.app-header {
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 24px;
+  color: #fff;
+  background: #243a40;
+  border-bottom: 4px solid var(--accent);
+}
+.brand h1 { margin: 0; font-size: 24px; line-height: 1.18; font-weight: 700; }
+.brand p { margin: 5px 0 0; color: #cfd9dc; font-size: 13px; }
+.status-label { color: #dce7e4; font-size: 13px; }
+.bslib-sidebar-layout > .sidebar { background: #eef1f2; border-right: 1px solid var(--line); }
+.sidebar h2, .table-heading h2, .about-card h2 { margin: 0 0 8px; font-size: 17px; font-weight: 700; }
+.sidebar-note { color: var(--muted); font-size: 12px; line-height: 1.45; }
+.reset-button { width: 100%; margin-top: 5px; }
+.nav-tabs { background: #fff; border-bottom: 1px solid var(--line); padding: 0 18px; }
+.nav-tabs .nav-link { color: #4a5358; border: 0; border-bottom: 3px solid transparent; border-radius: 0; padding: 13px 16px 10px; }
+.nav-tabs .nav-link.active { color: var(--accent-dark); border-bottom-color: var(--accent); font-weight: 700; }
+.tab-content { padding: 16px; overflow: auto; }
+.card, .bslib-value-box { border: 1px solid var(--line); border-radius: 6px; box-shadow: none; background: var(--panel); }
+.bslib-value-box { min-height: 92px; }
+.bslib-value-box .value-box-value { color: var(--accent-dark); font-size: 27px; }
+.bslib-value-box .value-box-title { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+.card-header { min-height: 62px; background: #fff; border-bottom: 1px solid var(--line); }
+.plot-card { min-height: 690px; }
+.plot-card .card-body { min-height: 620px; }
+.inline-controls, .table-heading { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.btn-primary { background: var(--accent); border-color: var(--accent); }
+.about-card { max-width: 920px; }
+.about-card dt { margin-top: 13px; }
+.about-card dd { margin: 4px 0 0; color: var(--muted); line-height: 1.55; }
+@media (max-width: 760px) {
+  .app-header { min-height: 68px; padding: 11px 15px; }
+  .brand h1 { font-size: 18px; }
+  .header-status { display: none; }
+  .tab-content { padding: 10px; }
+  .inline-controls, .table-heading { align-items: stretch; flex-direction: column; gap: 8px; }
+  .plot-card, .plot-card .card-body { min-height: 540px; }
+}

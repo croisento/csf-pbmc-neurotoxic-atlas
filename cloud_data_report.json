@@ -1,0 +1,40 @@
+{
+  "directory": "/home/lishaogang/NEU2026_July/final/ShinyAppsCloud/data",
+  "total_bytes": 139851260,
+  "github_single_file_limit_bytes": 100000000,
+  "all_files_below_github_limit": true,
+  "files": [
+    {
+      "file": "atlas_metadata.npz",
+      "bytes": 5403891
+    },
+    {
+      "file": "cell_type_top50_marker_catalog.csv",
+      "bytes": 40889
+    },
+    {
+      "file": "expression_part_00.npz",
+      "bytes": 24559856
+    },
+    {
+      "file": "expression_part_01.npz",
+      "bytes": 29259516
+    },
+    {
+      "file": "expression_part_02.npz",
+      "bytes": 45979323
+    },
+    {
+      "file": "expression_part_03.npz",
+      "bytes": 34584401
+    },
+    {
+      "file": "manifest.json",
+      "bytes": 17306
+    },
+    {
+      "file": "metadata_categories.json",
+      "bytes": 6078
+    }
+  ]
+}

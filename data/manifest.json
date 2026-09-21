@@ -1,0 +1,1150 @@
+{
+  "n_cells": 573569,
+  "n_genes": 220,
+  "obs_columns": [
+    "GSM",
+    "GSE",
+    "tissue",
+    "gender",
+    "age",
+    "Disease",
+    "Disease1",
+    "cell_type",
+    "cell_subtype_short"
+  ],
+  "expression_scale": 1000,
+  "expression_units": "log1p normalized counts per 10,000",
+  "expression_parts": [
+    {
+      "part": 0,
+      "file": "expression_part_00.npz",
+      "n_genes": 55,
+      "genes": [
+        "CD79A",
+        "CD74",
+        "HLA-DRA",
+        "HLA-DPA1",
+        "HLA-DRB1",
+        "HLA-DPB1",
+        "MS4A1",
+        "HLA-DQB1",
+        "CD79B",
+        "HLA-DQA1",
+        "CD37",
+        "BANK1",
+        "LINC00926",
+        "IGHM",
+        "HLA-DMA",
+        "MEF2C",
+        "HLA-DRB5",
+        "RALGPS2",
+        "IGKC",
+        "HVCN1",
+        "HLA-DMB",
+        "SNX2",
+        "RPS11",
+        "RPS5",
+        "RPL8",
+        "NCF1",
+        "RPL18A",
+        "TNFRSF13C",
+        "MARCH1",
+        "SWAP70",
+        "PDLIM1",
+        "BLK",
+        "TCL1A",
+        "CD22",
+        "IRF8",
+        "ADAM28",
+        "FCRLA",
+        "CD40",
+        "BCL11A",
+        "AFF3",
+        "POU2F2",
+        "PLPP5",
+        "GNG7",
+        "TCF4",
+        "CXXC5",
+        "CD52",
+        "CD19",
+        "LAPTM5",
+        "HLA-DOB",
+        "EAF2",
+        "TYROBP",
+        "CST3",
+        "AIF1",
+        "FCER1G",
+        "FTL"
+      ]
+    },
+    {
+      "part": 1,
+      "file": "expression_part_01.npz",
+      "n_genes": 55,
+      "genes": [
+        "LST1",
+        "FTH1",
+        "PSAP",
+        "LYZ",
+        "S100A11",
+        "SAT1",
+        "CTSS",
+        "GRN",
+        "NPC2",
+        "MS4A6A",
+        "SPI1",
+        "SRGN",
+        "SERPINA1",
+        "FGL2",
+        "FCGRT",
+        "MNDA",
+        "RNF130",
+        "AP1S2",
+        "CD68",
+        "FOS",
+        "CYBB",
+        "TYMP",
+        "CD14",
+        "OAZ1",
+        "CLEC7A",
+        "CSTA",
+        "NEAT1",
+        "COTL1",
+        "APLP2",
+        "PYCARD",
+        "LGALS1",
+        "CEBPD",
+        "RAB31",
+        "CTSH",
+        "TSPO",
+        "S100A9",
+        "CFD",
+        "NKG7",
+        "GNLY",
+        "CTSW",
+        "KLRD1",
+        "CST7",
+        "PRF1",
+        "HOPX",
+        "GZMA",
+        "IFITM2",
+        "KLRF1",
+        "GZMB",
+        "CD7",
+        "TRDC",
+        "FGFBP2",
+        "ID2",
+        "CD247",
+        "FCGR3A",
+        "HCST"
+      ]
+    },
+    {
+      "part": 2,
+      "file": "expression_part_02.npz",
+      "n_genes": 55,
+      "genes": [
+        "KLRB1",
+        "CLIC3",
+        "B2M",
+        "SPON2",
+        "PLAC8",
+        "MATK",
+        "IL2RB",
+        "HLA-C",
+        "GZMH",
+        "CD63",
+        "CCL5",
+        "EFHD2",
+        "ITGB2",
+        "CCL4",
+        "CMC1",
+        "HLA-A",
+        "PFN1",
+        "GZMM",
+        "PLEK",
+        "XCL2",
+        "HLA-B",
+        "SH2D1B",
+        "UBB",
+        "APMAP",
+        "IGFBP7",
+        "RAP1B",
+        "GSTP1",
+        "CYBA",
+        "ADGRG1",
+        "CD3D",
+        "CD3E",
+        "IL7R",
+        "CD3G",
+        "IL32",
+        "TRAC",
+        "CD27",
+        "CAMK4",
+        "LDHB",
+        "TCF7",
+        "CD2",
+        "MAL",
+        "AQP3",
+        "FLT3LG",
+        "LCK",
+        "BCL11B",
+        "SPOCK2",
+        "TRAT1",
+        "TRBC2",
+        "RPS3",
+        "LTB",
+        "LAT",
+        "LEF1",
+        "INPP4B",
+        "RPS12",
+        "RPS15A"
+      ]
+    },
+    {
+      "part": 3,
+      "file": "expression_part_03.npz",
+      "n_genes": 55,
+      "genes": [
+        "NOSIP",
+        "CD6",
+        "RPL30",
+        "CD5",
+        "RPL14",
+        "ITM2A",
+        "RPS27",
+        "LEPROTL1",
+        "GIMAP7",
+        "RPS25",
+        "SIT1",
+        "CD40LG",
+        "LIME1",
+        "RCAN3",
+        "TC2N",
+        "CD8B",
+        "RPS27A",
+        "LINC00861",
+        "C12orf57",
+        "RPL36",
+        "THEMIS",
+        "SARAF",
+        "OXNAD1",
+        "RPL32",
+        "JCHAIN",
+        "IRF7",
+        "CCDC50",
+        "ITM2C",
+        "SERPINF1",
+        "LILRA4",
+        "UGCG",
+        "PLD4",
+        "SEC61B",
+        "ALOX5AP",
+        "C12orf75",
+        "APP",
+        "MZB1",
+        "HERPUD1",
+        "SPCS1",
+        "MPEG1",
+        "SPIB",
+        "DERL3",
+        "CLEC4C",
+        "IL3RA",
+        "CYB561A3",
+        "TPM2",
+        "PTPRE",
+        "TXN",
+        "RNASE6",
+        "VAMP8",
+        "PPP1R14B",
+        "HSP90B1",
+        "TSPAN13",
+        "PLP2",
+        "ERP29"
+      ]
+    }
+  ],
+  "gene_lookup": {
+    "CD79A": {
+      "part": 0,
+      "column": 0
+    },
+    "CD74": {
+      "part": 0,
+      "column": 1
+    },
+    "HLA-DRA": {
+      "part": 0,
+      "column": 2
+    },
+    "HLA-DPA1": {
+      "part": 0,
+      "column": 3
+    },
+    "HLA-DRB1": {
+      "part": 0,
+      "column": 4
+    },
+    "HLA-DPB1": {
+      "part": 0,
+      "column": 5
+    },
+    "MS4A1": {
+      "part": 0,
+      "column": 6
+    },
+    "HLA-DQB1": {
+      "part": 0,
+      "column": 7
+    },
+    "CD79B": {
+      "part": 0,
+      "column": 8
+    },
+    "HLA-DQA1": {
+      "part": 0,
+      "column": 9
+    },
+    "CD37": {
+      "part": 0,
+      "column": 10
+    },
+    "BANK1": {
+      "part": 0,
+      "column": 11
+    },
+    "LINC00926": {
+      "part": 0,
+      "column": 12
+    },
+    "IGHM": {
+      "part": 0,
+      "column": 13
+    },
+    "HLA-DMA": {
+      "part": 0,
+      "column": 14
+    },
+    "MEF2C": {
+      "part": 0,
+      "column": 15
+    },
+    "HLA-DRB5": {
+      "part": 0,
+      "column": 16
+    },
+    "RALGPS2": {
+      "part": 0,
+      "column": 17
+    },
+    "IGKC": {
+      "part": 0,
+      "column": 18
+    },
+    "HVCN1": {
+      "part": 0,
+      "column": 19
+    },
+    "HLA-DMB": {
+      "part": 0,
+      "column": 20
+    },
+    "SNX2": {
+      "part": 0,
+      "column": 21
+    },
+    "RPS11": {
+      "part": 0,
+      "column": 22
+    },
+    "RPS5": {
+      "part": 0,
+      "column": 23
+    },
+    "RPL8": {
+      "part": 0,
+      "column": 24
+    },
+    "NCF1": {
+      "part": 0,
+      "column": 25
+    },
+    "RPL18A": {
+      "part": 0,
+      "column": 26
+    },
+    "TNFRSF13C": {
+      "part": 0,
+      "column": 27
+    },
+    "MARCH1": {
+      "part": 0,
+      "column": 28
+    },
+    "SWAP70": {
+      "part": 0,
+      "column": 29
+    },
+    "PDLIM1": {
+      "part": 0,
+      "column": 30
+    },
+    "BLK": {
+      "part": 0,
+      "column": 31
+    },
+    "TCL1A": {
+      "part": 0,
+      "column": 32
+    },
+    "CD22": {
+      "part": 0,
+      "column": 33
+    },
+    "IRF8": {
+      "part": 0,
+      "column": 34
+    },
+    "ADAM28": {
+      "part": 0,
+      "column": 35
+    },
+    "FCRLA": {
+      "part": 0,
+      "column": 36
+    },
+    "CD40": {
+      "part": 0,
+      "column": 37
+    },
+    "BCL11A": {
+      "part": 0,
+      "column": 38
+    },
+    "AFF3": {
+      "part": 0,
+      "column": 39
+    },
+    "POU2F2": {
+      "part": 0,
+      "column": 40
+    },
+    "PLPP5": {
+      "part": 0,
+      "column": 41
+    },
+    "GNG7": {
+      "part": 0,
+      "column": 42
+    },
+    "TCF4": {
+      "part": 0,
+      "column": 43
+    },
+    "CXXC5": {
+      "part": 0,
+      "column": 44
+    },
+    "CD52": {
+      "part": 0,
+      "column": 45
+    },
+    "CD19": {
+      "part": 0,
+      "column": 46
+    },
+    "LAPTM5": {
+      "part": 0,
+      "column": 47
+    },
+    "HLA-DOB": {
+      "part": 0,
+      "column": 48
+    },
+    "EAF2": {
+      "part": 0,
+      "column": 49
+    },
+    "TYROBP": {
+      "part": 0,
+      "column": 50
+    },
+    "CST3": {
+      "part": 0,
+      "column": 51
+    },
+    "AIF1": {
+      "part": 0,
+      "column": 52
+    },
+    "FCER1G": {
+      "part": 0,
+      "column": 53
+    },
+    "FTL": {
+      "part": 0,
+      "column": 54
+    },
+    "LST1": {
+      "part": 1,
+      "column": 0
+    },
+    "FTH1": {
+      "part": 1,
+      "column": 1
+    },
+    "PSAP": {
+      "part": 1,
+      "column": 2
+    },
+    "LYZ": {
+      "part": 1,
+      "column": 3
+    },
+    "S100A11": {
+      "part": 1,
+      "column": 4
+    },
+    "SAT1": {
+      "part": 1,
+      "column": 5
+    },
+    "CTSS": {
+      "part": 1,
+      "column": 6
+    },
+    "GRN": {
+      "part": 1,
+      "column": 7
+    },
+    "NPC2": {
+      "part": 1,
+      "column": 8
+    },
+    "MS4A6A": {
+      "part": 1,
+      "column": 9
+    },
+    "SPI1": {
+      "part": 1,
+      "column": 10
+    },
+    "SRGN": {
+      "part": 1,
+      "column": 11
+    },
+    "SERPINA1": {
+      "part": 1,
+      "column": 12
+    },
+    "FGL2": {
+      "part": 1,
+      "column": 13
+    },
+    "FCGRT": {
+      "part": 1,
+      "column": 14
+    },
+    "MNDA": {
+      "part": 1,
+      "column": 15
+    },
+    "RNF130": {
+      "part": 1,
+      "column": 16
+    },
+    "AP1S2": {
+      "part": 1,
+      "column": 17
+    },
+    "CD68": {
+      "part": 1,
+      "column": 18
+    },
+    "FOS": {
+      "part": 1,
+      "column": 19
+    },
+    "CYBB": {
+      "part": 1,
+      "column": 20
+    },
+    "TYMP": {
+      "part": 1,
+      "column": 21
+    },
+    "CD14": {
+      "part": 1,
+      "column": 22
+    },
+    "OAZ1": {
+      "part": 1,
+      "column": 23
+    },
+    "CLEC7A": {
+      "part": 1,
+      "column": 24
+    },
+    "CSTA": {
+      "part": 1,
+      "column": 25
+    },
+    "NEAT1": {
+      "part": 1,
+      "column": 26
+    },
+    "COTL1": {
+      "part": 1,
+      "column": 27
+    },
+    "APLP2": {
+      "part": 1,
+      "column": 28
+    },
+    "PYCARD": {
+      "part": 1,
+      "column": 29
+    },
+    "LGALS1": {
+      "part": 1,
+      "column": 30
+    },
+    "CEBPD": {
+      "part": 1,
+      "column": 31
+    },
+    "RAB31": {
+      "part": 1,
+      "column": 32
+    },
+    "CTSH": {
+      "part": 1,
+      "column": 33
+    },
+    "TSPO": {
+      "part": 1,
+      "column": 34
+    },
+    "S100A9": {
+      "part": 1,
+      "column": 35
+    },
+    "CFD": {
+      "part": 1,
+      "column": 36
+    },
+    "NKG7": {
+      "part": 1,
+      "column": 37
+    },
+    "GNLY": {
+      "part": 1,
+      "column": 38
+    },
+    "CTSW": {
+      "part": 1,
+      "column": 39
+    },
+    "KLRD1": {
+      "part": 1,
+      "column": 40
+    },
+    "CST7": {
+      "part": 1,
+      "column": 41
+    },
+    "PRF1": {
+      "part": 1,
+      "column": 42
+    },
+    "HOPX": {
+      "part": 1,
+      "column": 43
+    },
+    "GZMA": {
+      "part": 1,
+      "column": 44
+    },
+    "IFITM2": {
+      "part": 1,
+      "column": 45
+    },
+    "KLRF1": {
+      "part": 1,
+      "column": 46
+    },
+    "GZMB": {
+      "part": 1,
+      "column": 47
+    },
+    "CD7": {
+      "part": 1,
+      "column": 48
+    },
+    "TRDC": {
+      "part": 1,
+      "column": 49
+    },
+    "FGFBP2": {
+      "part": 1,
+      "column": 50
+    },
+    "ID2": {
+      "part": 1,
+      "column": 51
+    },
+    "CD247": {
+      "part": 1,
+      "column": 52
+    },
+    "FCGR3A": {
+      "part": 1,
+      "column": 53
+    },
+    "HCST": {
+      "part": 1,
+      "column": 54
+    },
+    "KLRB1": {
+      "part": 2,
+      "column": 0
+    },
+    "CLIC3": {
+      "part": 2,
+      "column": 1
+    },
+    "B2M": {
+      "part": 2,
+      "column": 2
+    },
+    "SPON2": {
+      "part": 2,
+      "column": 3
+    },
+    "PLAC8": {
+      "part": 2,
+      "column": 4
+    },
+    "MATK": {
+      "part": 2,
+      "column": 5
+    },
+    "IL2RB": {
+      "part": 2,
+      "column": 6
+    },
+    "HLA-C": {
+      "part": 2,
+      "column": 7
+    },
+    "GZMH": {
+      "part": 2,
+      "column": 8
+    },
+    "CD63": {
+      "part": 2,
+      "column": 9
+    },
+    "CCL5": {
+      "part": 2,
+      "column": 10
+    },
+    "EFHD2": {
+      "part": 2,
+      "column": 11
+    },
+    "ITGB2": {
+      "part": 2,
+      "column": 12
+    },
+    "CCL4": {
+      "part": 2,
+      "column": 13
+    },
+    "CMC1": {
+      "part": 2,
+      "column": 14
+    },
+    "HLA-A": {
+      "part": 2,
+      "column": 15
+    },
+    "PFN1": {
+      "part": 2,
+      "column": 16
+    },
+    "GZMM": {
+      "part": 2,
+      "column": 17
+    },
+    "PLEK": {
+      "part": 2,
+      "column": 18
+    },
+    "XCL2": {
+      "part": 2,
+      "column": 19
+    },
+    "HLA-B": {
+      "part": 2,
+      "column": 20
+    },
+    "SH2D1B": {
+      "part": 2,
+      "column": 21
+    },
+    "UBB": {
+      "part": 2,
+      "column": 22
+    },
+    "APMAP": {
+      "part": 2,
+      "column": 23
+    },
+    "IGFBP7": {
+      "part": 2,
+      "column": 24
+    },
+    "RAP1B": {
+      "part": 2,
+      "column": 25
+    },
+    "GSTP1": {
+      "part": 2,
+      "column": 26
+    },
+    "CYBA": {
+      "part": 2,
+      "column": 27
+    },
+    "ADGRG1": {
+      "part": 2,
+      "column": 28
+    },
+    "CD3D": {
+      "part": 2,
+      "column": 29
+    },
+    "CD3E": {
+      "part": 2,
+      "column": 30
+    },
+    "IL7R": {
+      "part": 2,
+      "column": 31
+    },
+    "CD3G": {
+      "part": 2,
+      "column": 32
+    },
+    "IL32": {
+      "part": 2,
+      "column": 33
+    },
+    "TRAC": {
+      "part": 2,
+      "column": 34
+    },
+    "CD27": {
+      "part": 2,
+      "column": 35
+    },
+    "CAMK4": {
+      "part": 2,
+      "column": 36
+    },
+    "LDHB": {
+      "part": 2,
+      "column": 37
+    },
+    "TCF7": {
+      "part": 2,
+      "column": 38
+    },
+    "CD2": {
+      "part": 2,
+      "column": 39
+    },
+    "MAL": {
+      "part": 2,
+      "column": 40
+    },
+    "AQP3": {
+      "part": 2,
+      "column": 41
+    },
+    "FLT3LG": {
+      "part": 2,
+      "column": 42
+    },
+    "LCK": {
+      "part": 2,
+      "column": 43
+    },
+    "BCL11B": {
+      "part": 2,
+      "column": 44
+    },
+    "SPOCK2": {
+      "part": 2,
+      "column": 45
+    },
+    "TRAT1": {
+      "part": 2,
+      "column": 46
+    },
+    "TRBC2": {
+      "part": 2,
+      "column": 47
+    },
+    "RPS3": {
+      "part": 2,
+      "column": 48
+    },
+    "LTB": {
+      "part": 2,
+      "column": 49
+    },
+    "LAT": {
+      "part": 2,
+      "column": 50
+    },
+    "LEF1": {
+      "part": 2,
+      "column": 51
+    },
+    "INPP4B": {
+      "part": 2,
+      "column": 52
+    },
+    "RPS12": {
+      "part": 2,
+      "column": 53
+    },
+    "RPS15A": {
+      "part": 2,
+      "column": 54
+    },
+    "NOSIP": {
+      "part": 3,
+      "column": 0
+    },
+    "CD6": {
+      "part": 3,
+      "column": 1
+    },
+    "RPL30": {
+      "part": 3,
+      "column": 2
+    },
+    "CD5": {
+      "part": 3,
+      "column": 3
+    },
+    "RPL14": {
+      "part": 3,
+      "column": 4
+    },
+    "ITM2A": {
+      "part": 3,
+      "column": 5
+    },
+    "RPS27": {
+      "part": 3,
+      "column": 6
+    },
+    "LEPROTL1": {
+      "part": 3,
+      "column": 7
+    },
+    "GIMAP7": {
+      "part": 3,
+      "column": 8
+    },
+    "RPS25": {
+      "part": 3,
+      "column": 9
+    },
+    "SIT1": {
+      "part": 3,
+      "column": 10
+    },
+    "CD40LG": {
+      "part": 3,
+      "column": 11
+    },
+    "LIME1": {
+      "part": 3,
+      "column": 12
+    },
+    "RCAN3": {
+      "part": 3,
+      "column": 13
+    },
+    "TC2N": {
+      "part": 3,
+      "column": 14
+    },
+    "CD8B": {
+      "part": 3,
+      "column": 15
+    },
+    "RPS27A": {
+      "part": 3,
+      "column": 16
+    },
+    "LINC00861": {
+      "part": 3,
+      "column": 17
+    },
+    "C12ORF57": {
+      "part": 3,
+      "column": 18
+    },
+    "RPL36": {
+      "part": 3,
+      "column": 19
+    },
+    "THEMIS": {
+      "part": 3,
+      "column": 20
+    },
+    "SARAF": {
+      "part": 3,
+      "column": 21
+    },
+    "OXNAD1": {
+      "part": 3,
+      "column": 22
+    },
+    "RPL32": {
+      "part": 3,
+      "column": 23
+    },
+    "JCHAIN": {
+      "part": 3,
+      "column": 24
+    },
+    "IRF7": {
+      "part": 3,
+      "column": 25
+    },
+    "CCDC50": {
+      "part": 3,
+      "column": 26
+    },
+    "ITM2C": {
+      "part": 3,
+      "column": 27
+    },
+    "SERPINF1": {
+      "part": 3,
+      "column": 28
+    },
+    "LILRA4": {
+      "part": 3,
+      "column": 29
+    },
+    "UGCG": {
+      "part": 3,
+      "column": 30
+    },
+    "PLD4": {
+      "part": 3,
+      "column": 31
+    },
+    "SEC61B": {
+      "part": 3,
+      "column": 32
+    },
+    "ALOX5AP": {
+      "part": 3,
+      "column": 33
+    },
+    "C12ORF75": {
+      "part": 3,
+      "column": 34
+    },
+    "APP": {
+      "part": 3,
+      "column": 35
+    },
+    "MZB1": {
+      "part": 3,
+      "column": 36
+    },
+    "HERPUD1": {
+      "part": 3,
+      "column": 37
+    },
+    "SPCS1": {
+      "part": 3,
+      "column": 38
+    },
+    "MPEG1": {
+      "part": 3,
+      "column": 39
+    },
+    "SPIB": {
+      "part": 3,
+      "column": 40
+    },
+    "DERL3": {
+      "part": 3,
+      "column": 41
+    },
+    "CLEC4C": {
+      "part": 3,
+      "column": 42
+    },
+    "IL3RA": {
+      "part": 3,
+      "column": 43
+    },
+    "CYB561A3": {
+      "part": 3,
+      "column": 44
+    },
+    "TPM2": {
+      "part": 3,
+      "column": 45
+    },
+    "PTPRE": {
+      "part": 3,
+      "column": 46
+    },
+    "TXN": {
+      "part": 3,
+      "column": 47
+    },
+    "RNASE6": {
+      "part": 3,
+      "column": 48
+    },
+    "VAMP8": {
+      "part": 3,
+      "column": 49
+    },
+    "PPP1R14B": {
+      "part": 3,
+      "column": 50
+    },
+    "HSP90B1": {
+      "part": 3,
+      "column": 51
+    },
+    "TSPAN13": {
+      "part": 3,
+      "column": 52
+    },
+    "PLP2": {
+      "part": 3,
+      "column": 53
+    },
+    "ERP29": {
+      "part": 3,
+      "column": 54
+    }
+  },
+  "source_h5ad": "adata_final_web_cell_type_top50_markers.h5ad"
+}
