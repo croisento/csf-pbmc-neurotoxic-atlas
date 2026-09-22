@@ -10,7 +10,17 @@
     "Disease",
     "Disease1",
     "cell_type",
-    "cell_subtype_short"
+    "cell_subtype_short",
+    "n_genes_by_counts",
+    "total_counts",
+    "pct_counts_mt",
+    "pct_counts_rb"
+  ],
+  "numeric_obs_columns": [
+    "n_genes_by_counts",
+    "total_counts",
+    "pct_counts_mt",
+    "pct_counts_rb"
   ],
   "expression_scale": 1000,
   "expression_units": "log1p normalized counts per 10,000",

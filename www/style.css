@@ -44,6 +44,12 @@ html, body {
 .card-header { min-height: 62px; background: #fff; border-bottom: 1px solid var(--line); }
 .plot-card { min-height: 690px; }
 .plot-card .card-body { min-height: 620px; }
+.plot-hint {
+  margin: 0 18px 14px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
 .inline-controls, .table-heading { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .btn-primary { background: var(--accent); border-color: var(--accent); }
 .about-card { max-width: 920px; }

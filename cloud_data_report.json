@@ -1,12 +1,12 @@
 {
   "directory": "/home/lishaogang/NEU2026_July/final/ShinyAppsCloud/data",
-  "total_bytes": 139851260,
+  "total_bytes": 146334649,
   "github_single_file_limit_bytes": 100000000,
   "all_files_below_github_limit": true,
   "files": [
     {
       "file": "atlas_metadata.npz",
-      "bytes": 5403891
+      "bytes": 11887075
     },
     {
       "file": "cell_type_top50_marker_catalog.csv",
@@ -30,7 +30,7 @@
     },
     {
       "file": "manifest.json",
-      "bytes": 17306
+      "bytes": 17511
     },
     {
       "file": "metadata_categories.json",
