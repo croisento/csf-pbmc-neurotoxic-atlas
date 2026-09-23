@@ -193,6 +193,39 @@ def box_statistics(values: np.ndarray) -> tuple[float, float, float, float, floa
     return float(q1), float(median), float(q3), lower, upper
 
 
+def composition_summary(indices: np.ndarray, group: str) -> pd.DataFrame:
+    """Return per-group normalized medians of sample-level subtype fractions."""
+    frame_columns = list(
+        dict.fromkeys(["GSE", "GSM", group, "cell_subtype_short"])
+    )
+    frame = obs.iloc[indices][frame_columns].copy()
+    counts = (
+        frame.groupby(frame_columns, observed=True)
+        .size()
+        .rename("Cells")
+        .reset_index()
+    )
+    totals = counts.groupby(["GSE", "GSM"], observed=True)["Cells"].transform(
+        "sum"
+    )
+    counts["Proportion"] = counts["Cells"] / totals
+    summary = (
+        counts.groupby([group, "cell_subtype_short"], observed=True)["Proportion"]
+        .median()
+        .reset_index()
+    )
+    median_totals = summary.groupby(group, observed=True)["Proportion"].transform(
+        "sum"
+    )
+    summary["Proportion"] = np.divide(
+        summary["Proportion"],
+        median_totals,
+        out=np.zeros(len(summary), dtype=np.float64),
+        where=median_totals.to_numpy() > 0,
+    )
+    return summary
+
+
 app_ui = ui.page_fillable(
     ui.include_css(ROOT / "www/style.css"),
     ui.tags.header(
@@ -232,14 +265,14 @@ app_ui = ui.page_fillable(
                     ui.card_header(
                         ui.tags.div(
                             ui.input_select("color_by", "Color by", {
-                                "cell_subtype_short": "Cell subtype", "cell_type": "Cell type",
+                                "cell_type": "Cell type", "cell_subtype_short": "Cell subtype",
                                 "Disease": "Disease", "Disease1": "Disease1", "tissue": "Tissue",
                                 "GSE": "GSE", "gender": "Gender",
                                 "n_genes_by_counts": "Genes detected",
                                 "total_counts": "Total counts",
                                 "pct_counts_mt": "Mitochondrial counts (%)",
                                 "pct_counts_rb": "Ribosomal counts (%)",
-                            }, selected="cell_subtype_short"),
+                            }, selected="cell_type"),
                             ui.input_slider("point_limit", "Maximum displayed cells", 10_000, MAX_RENDERED_CELLS, 50_000, step=10_000),
                             class_="inline-controls",
                         )
@@ -454,18 +487,14 @@ def server(input, output, session):
     def composition_plot():
         indices = filtered_indices()
         group = input.composition_group()
-        frame = obs.iloc[indices][["GSE", "GSM", group, "cell_subtype_short"]].copy()
-        counts = frame.groupby(["GSE", "GSM", group, "cell_subtype_short"], observed=True).size().rename("Cells").reset_index()
-        totals = counts.groupby(["GSE", "GSM"], observed=True)["Cells"].transform("sum")
-        counts["Proportion"] = counts["Cells"] / totals
-        summary = counts.groupby([group, "cell_subtype_short"], observed=True)["Proportion"].median().reset_index()
+        summary = composition_summary(indices, group)
         figure = px.bar(
             summary, x=group, y="Proportion", color="cell_subtype_short",
             color_discrete_map=SUBTYPE_COLORS,
             category_orders={"cell_subtype_short": SUBTYPE_ORDER},
         )
-        figure.update_layout(**layout(f"Median sample-level composition by {group}", "Cell subtype"), barmode="stack")
-        figure.update_yaxes(tickformat=".0%", title="Median proportion")
+        figure.update_layout(**layout(f"Normalized median sample-level composition by {group}", "Cell subtype"), barmode="stack")
+        figure.update_yaxes(tickformat=".0%", title="Normalized median proportion", range=[0, 1])
         if group == "tissue":
             present = [value for value in choices("tissue") if value in set(summary[group].astype(str))]
             figure.update_traces(width=0.46)
